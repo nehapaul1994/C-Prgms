@@ -3,7 +3,8 @@
 int main(){
 	FILE *fp;
 	char c;
-	fp=fopen(__FILE__,"r");
+	fp=fopen(__FILE__,"r");/** __FILE__ is Standard Predefined Macros in C Programming.
+This macro will expand to the name of current file path.**/
 
 	do{
 		c=getc(fp);
